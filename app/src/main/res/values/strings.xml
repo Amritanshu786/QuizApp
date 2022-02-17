@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">QuizApp</string>
+    <string name="quiz_app">QuizApp</string>
+    <string name="welcome">Welcome</string>
+    <string name="enter_name">Please Enter your name</string>
+    <string name="name">Name</string>
+    <string name="start">START</string>
+    <string name="feedback">FeedBack</string>
+    <string name="please_rate_us_in_the_following">Please rate us in the following</string>
+    <string name="write_your_feedback">Write your feedback</string>
+    <string name="submit">Submit</string>
+    <string name="app_logo">App Logo</string>
+
+    <style name="SplashScreen" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowBackground">@drawable/background_splashscreen</item>
+    </style>
+
+    <style name="CustomNoActionBarTheme" parent="@style/Theme.AppCompat.Light.NoActionBar">
+        <item name="android:statusBarColor">@color/purple_500</item>
+    </style>
+
+    <style name="CustomToolbarStyle">
+        <item name="android:textColorPrimary">@color/white</item>
+    </style>
+
+</resources>
